@@ -1,0 +1,15 @@
+:root {
+    --secondary-color: #003242;
+    --primary-color: #076CEC;
+	--dark-3: #003242;
+	--bg-1: #003242;    
+}
+
+.item .cover .slider-content h2 {
+    color: var(--primary-color);
+    -webkit-text-fill-color: var(--primary-color);
+}
+
+.header-2 .main-menu li a.active , .header-2 .main-menu>.menu-item a:hover{
+    color: var(--primary-color) !important;
+}

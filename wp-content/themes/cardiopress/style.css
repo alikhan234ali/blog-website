@@ -1,0 +1,199 @@
+/*
+Theme Name: CardioPress
+Theme URI: https://www.nayrathemes.com/cardiopress-free/
+Author: Nayra Themes
+Author URI: https://www.nayrathemes.com/
+Description: CardioPress health & medical WordPress theme. It has come with predefined Sections, Which helps you to build your own professional medical website. CardioPress based on in-depth research into hospital, clinic, dentist, dermatology, dental, cosmetology, plastic surgery, laser surgery, dietitian, chiropractic, rehab, pharmacy, veterinary or any medical business. View the demo of CardioPress Pro https://www.nayrathemes.com/demo/pro/?theme=cardiopress
+Version: 2.8
+Template: medazin
+Tested up to: 6.6
+Requires PHP: 5.6
+Requires at least:  4.7
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+slug: cardiopress
+Text Domain: cardiopress
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+/* Header */
+.header-3 .logo {
+    min-height: 100px;
+    padding: 18px 0;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.header-3 .logo > a{
+    height: inherit;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.header-3 .logo::before {
+    min-height: 120px;
+}
+
+
+.main-menu li .nav-link {
+    color: #fff;
+}
+
+h4.site-title {
+    margin-bottom: 0;
+}
+
+.header a.site-title, .header a.custom-logo-link  {
+	display: block;
+	line-height: 1;
+}
+
+.header p.site-description {
+	line-height: 1;
+	margin: 0.9523vw 0 0;
+}
+
+@media (min-width: 992px) {
+    header.header-2 {
+		top: 30px;
+	}
+}
+
+/* Slider */
+.item .cover .slider-content h2 {
+ -webkit-text-stroke: 1px;
+}
+
+.item .cover .slider-content h2 {
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.item .cover .slider-content>p {
+	margin-bottom : 1.5em;
+}
+
+
+@media (min-width: 768px) {
+    .item .cover .slider-content h2 {
+        font-size: 40px;
+		font-weight: 600;
+    }
+}
+
+@media (min-width: 992px) {
+    .item .cover .slider-content h2 {
+        font-size: 56px;
+    }
+	
+	.item img {
+		min-height: 800px;
+	}
+}
+
+.item .cover .slider-content h2>.slider-sub-title {
+    color: #fff;
+    -webkit-text-fill-color: #fff;
+}
+
+.item .cover .slider-content h2 {
+    -webkit-text-fill-color: #fff;
+    color: #fff;
+}
+
+/* Process */
+section.work-process-section.home-process {
+    margin-top: 100px;
+}
+
+.work-process-section .main-item:not(:last-child)::after {
+    background: url(../cardiopress/assets/images/work-process.png) no-repeat; 
+}
+
+/* Feature */
+.feature-section .bg-elements img.element1 {
+    width: auto;
+}
+
+
+/* Info */
+section.info-section button#toggle-btn{
+	background: var(--primary-color);
+}
+
+section.info-section .toggle-btn i{
+	border: 1px solid var(--primary-color);
+	color: var(--primary-color);
+}
+
+/* Footer */
+.footer-logo img {
+	width: auto;
+	max-width: 250px !important;
+}
+
+.widget_calendar caption {
+	position: static;
+	color: #fff;
+}
+
+.footer .wp-calendar-table a {
+	color: var(--primary-color);
+}
+
+.wp-block-code code img {
+	padding: 10px;
+}
+
+.wp-block-latest-posts__list .wp-block-latest-posts__post-author,
+.wp-block-latest-posts__list .wp-block-latest-posts__post-date {
+	text-decoration: none;
+}
+
+.wc-block-cart-items td {
+	color: inherit;
+}
+
+.wc-block-components-totals-coupon__content button.components-button {
+    border-radius: 0;
+}
+
+ul.wp-block-page-list a {
+    text-decoration: none;
+}
+
+.wc-block-featured-category__link .wp-block-button__link:focus {
+	color: #fff;
+}
+
+.wc-block-featured-product__price .woocommerce-Price-amount.amount {
+	color: inherit;
+}
+
+.wp-block-post-comments-form .comment-reply-title {
+    margin-bottom: 1.4rem;
+}
+
+.wp-block-group .wp-block-details p {
+	margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.woocommerce table.shop_attributes td {
+    text-decoration: none;
+}
+
+.wc-block-cart-items th {
+	color: inherit;
+}
+
+.wp-block-latest-posts__post-author {
+	font-size: 18px;
+	font-weight: 600;
+}

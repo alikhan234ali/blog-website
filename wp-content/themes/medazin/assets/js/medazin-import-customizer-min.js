@@ -1,0 +1,1 @@
+!function(t){t.sectionConstructor.medazin_import_section=t.Section.extend({attachEvents:function(){},isContextuallyActive:function(){return!0}})}(wp.customize);

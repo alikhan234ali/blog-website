@@ -1,0 +1,251 @@
+/*
+Theme Name: Medazin
+Theme URI: https://www.nayrathemes.com/medazin-free/
+Author: Nayra Themes
+Author URI: https://www.nayrathemes.com/
+Description: Medazin health & medical WordPress theme. It has come with predefined Sections, Which helps you to build your own professional medical website. Medazin based on in-depth research into hospital, clinic, dentist, dermatology, dental, cosmetology, plastic surgery, laser surgery, dietitian, chiropractic, rehab, pharmacy, veterinary or any medical business. View the demo of Medazin Pro https://www.nayrathemes.com/demo/pro/?theme=medazin
+Version: 8.4
+Tested up to: 6.6
+Requires PHP: 5.6
+Requires at least:  4.7
+License: GPLv3 or later
+License URI:  https://www.gnu.org/licenses/gpl-3.0.html
+slug: medazin
+Text Domain: medazin
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio, editor-style, grid-layout
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+.wp-block-woocommerce-customer-account a .wc-block-customer-account__account-icon {
+	height: 2em;
+	width: 2em;
+}
+
+.sidebar .widget .wp-block-group .is-layout-flow h2 {
+	border-left: 0 none;
+}
+
+.wp-block-details summary { 
+	font-weight: 600;
+}
+
+.wp-block-verse {
+	padding: 10px;
+}
+
+.wp-block-calendar .wp-calendar-nav {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.wc-block-cart .wp-block-woocommerce-cart-order-summary-block .wc-block-cart__totals-title {
+	font-size: 24px;
+	line-height: 34px;
+	text-transform: capitalize;
+	margin-bottom: 15px;
+}
+
+.sidebar .widget .wp-block-group .wp-block-latest-comments,
+.sidebar .widget .wp-block-group .wp-block-loginout,
+.sidebar .widget .wp-block-group .wp-block-table,
+.sidebar .widget .wp-block-group .wp-block-buttons {
+	padding: 1.563rem 1.000rem 1.563rem;
+}
+
+.sidebar .widget .wp-block-group .wp-block-embed {
+    margin: 0;
+}
+
+.sidebar .widget .wp-block-group ol li {
+	padding-bottom: 0.625rem;
+}
+
+.wp-block-details summary {
+	font-weight: 600;
+	padding: 10px;
+}
+
+a.wc-block-grid__product-link {
+	text-decoration: none;
+}
+
+.wp-block-latest-posts__post-author {
+	font-size: 1.7rem;
+ 	font-weight: 600;
+}
+
+.wp-block-cover.has-background-dim-60.has-background-dim .wp-block-cover-text a:hover {
+	color: inherit;
+}
+
+.sidebar .widget .wp-block-group .wp-block-cover,
+.sidebar .widget .wp-block-group .wp-block-separator {
+  margin-bottom: 0rem;
+}
+
+.wp-block-quote .wp-block-search {
+	padding-bottom: 5px;
+}
+
+.wc-block-mini-cart__icon,
+.wc-block-mini-cart__badge {
+	color: inherit;
+}
+
+.sidebar .widget .wp-block-pullquote cite {
+    z-index: 1;
+}
+
+.sidebar .widget .wp-block-group .is-nowrap {
+	margin: 1.563rem 1.000rem 1.563rem;
+}
+
+.wp-block-post-title a {
+    text-decoration: none;
+}
+
+.wp-block-details summary {
+	font-weight: 600;
+}
+
+.wp-block-group.has-black-border-color {
+	border-color: #333 !important;
+}
+
+.widget .wp-block-group .wp-block-preformatted a {
+	color: inherit;
+}
+
+.wp-block-woocommerce-single-product .wp-block-post-title a {
+	text-decoration: none;
+}
+
+.wc-block-grid__products .wc-block-components-product-sale-badge.wc-block-grid__product-onsale {
+	letter-spacing: 0.2px;
+	border: none;
+}
+
+.footer-sidebar .widget .wp-block-group .wp-block-image .wp-element-caption a {
+	color:inherit;
+}
+
+.sidebar .widget .wp-block-group .is-nowrap p {
+	padding: 0;
+}
+
+.sidebar .widget.widget_block .wp-block-group ul.wp-block-latest-posts__list {
+    margin-left: 0;
+}
+
+.sidebar .widget .wp-block-group .wp-block-latest-comments__comment-meta {
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+.wc-block-components-product-title a.wc-block-components-product-name:hover,
+.wc-block-components-product-title a.wc-block-components-product-name:focus {
+	color: inherit;
+}
+
+.wp-block-code.has-text-color code {
+    color: inherit;
+}
+
+.wc-block-grid__products .wc-block-components-product-button__button {
+    border-radius: 0;
+}
+
+.widget .wp-block-heading:before {
+	left: 0;
+	top: 0;
+}
+
+div.wc-block-components-sidebar-layout.wc-block-cart .wc-block-cart__totals-title {
+	font-weight: 700;
+	font-size: 24px;
+}
+
+.wc-block-components-checkout-place-order-button{
+	background: inherit;
+}
+
+.widget .wp-block-social-links {
+    margin-bottom: 0;
+}
+
+.wp-block-latest-comments article{
+	margin-bottom: 0px;
+}
+
+.sidebar .widget .wp-block-group .wp-block-button .wp-block-button__link {
+	color: #fff;
+}
+
+button.wp-block-search__button.wp-element-button:hover,
+button.wp-block-search__button.wp-element-button:focus{
+    border: 2px solid;
+}
+
+.wc-block-components-totals-coupon__content button.components-button {
+	border-radius: 4px;
+}
+
+.wp-block-code code img {
+	padding: 10px;
+}
+
+.wp-block-latest-posts__list .wp-block-latest-posts__post-author,
+.wp-block-latest-posts__list .wp-block-latest-posts__post-date {
+	text-decoration: none;
+}
+
+.wc-block-cart-items td {
+	color: inherit;
+}
+
+.wc-block-components-totals-coupon__content button.components-button {
+	border-radius: 0;
+}
+
+ul.wp-block-page-list a {
+	text-decoration: none;
+}
+
+.wc-block-featured-category__link .wp-block-button__link:focus {
+	color: #fff;
+}
+
+.wc-block-featured-product__price .woocommerce-Price-amount.amount {
+	color: inherit;
+}
+
+.wp-block-post-comments-form .comment-reply-title {
+    margin-bottom: 1.4rem;
+}
+
+.wp-block-group .wp-block-details p {
+	margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.woocommerce table.shop_attributes td {
+	text-decoration: none;
+}
+
+.wc-block-cart-items th {
+	color: inherit;
+}
+
+.wp-block-latest-posts__post-author {
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.post .entry-content ul.wp-block-post-template li.wp-block-post .wp-block-post-date {
+	padding-bottom: 1.2rem;
+}
